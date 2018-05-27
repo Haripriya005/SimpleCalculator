@@ -1,0 +1,39 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="40dp"
+        android:elevation="5dp"
+        app:cardElevation="5dp"
+        app:elevation="5dp"
+        app:cardCornerRadius="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout android:id="@+id/arvind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:text="namaste" />
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>
+
